@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <label for="name">Name </label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="role">Role </label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <label for="email">Email </label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+
+        <br>
+        <label for="date1">Date: </label>
+        <div>
+            <input type="date" name="" id="date1">
+        </div>
+        <br>
+        <label for="number1">bonus: </label>
+        <div>
+            <input type="number" name="mybonus" id="number1">
+        </div>
+        <br>
+        <label for="checkbox1">Are you eligible: </label>
+        <div>
+            <input type="checkbox" name="myeligibility" id="checkbox1">
+            <!--checked -->
+        </div>
+        <br>
+        <div>
+            Input your Gender: Male <input type="radio" name="myeligibility"> Female <input type="radio"
+                name="myeligibility"> Others <input type="radio" name="myeligibility">
+        </div>
+        <div>
+            This is your text area: <br><textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+            <option value="fer">Ferrari</option>
+            <option value="BMW">BMW</option>
+            <option value="JAG">Jaguar</option>
+        </select>
+        <br>
+        <div>
+            <input type="submit" value="submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+
+    </form>
+</body>
+
+</html>
